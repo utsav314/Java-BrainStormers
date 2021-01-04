@@ -3,10 +3,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 
+// This set of code contains Fibonacci number solving problem using hashmap and reduced time comaplexity 
+// This code contains a recursive call which calculate and stores the data for the further calls . 
+
 public class FibonacciSeries
 {
-
-    
+  
 	static int calculateFibo(int n,Map<Integer,Integer> obj) 
     {       
          for(Map.Entry<Integer,Integer> x: obj.entrySet())
